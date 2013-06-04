@@ -1,11 +1,13 @@
 TYPO3-Flow-Tutorial
 ===================
 
-First steps on my way creating a TYPO3 Flow Tutorial
+First steps on my way creating a TYPO3 Flow Tutorial.
+This is more my notes than a public Project. Well, perhaps you'll find my notes usefull...
+If it is so, drop me a line at github@greth.me and tell me whats usefull, or not, or... whatever... :)
 
-This project is stored under /FlowDirectory/Packages/Application/JPG.Usertest
+This TYPO3 Flow Application is stored under /PathTo/MyFlowDirectory/Packages/Application/JPG.Usertest/
 
-Configuration/Settings.yaml
+/PathTo/MyFlowDirectory/Configuration/Settings.yaml
 -------------------
 ```yaml
 #                                                                        #
