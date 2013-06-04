@@ -39,3 +39,5 @@ TYPO3:
           mirrorMode: copy
 		  
 ```
+
+- [ ] Formatting hints: https://help.github.com/articles/github-flavored-markdown
