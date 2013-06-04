@@ -40,4 +40,4 @@ TYPO3:
 		  
 ```
 
-- [ ] Formatting hints: https://help.github.com/articles/github-flavored-markdown
+- Formatting hints: https://help.github.com/articles/github-flavored-markdown
