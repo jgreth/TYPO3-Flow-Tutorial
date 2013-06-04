@@ -1,5 +1,4 @@
-TYPO3-Flow-Tutorial
-===================
+# TYPO3-Flow-Tutorial #
 
 First steps on my way creating a TYPO3 Flow Tutorial.
 This is more my notes than a public Project. Well, perhaps you'll find my notes usefull...
@@ -7,8 +6,10 @@ If it is so, drop me a line at github@greth.me and tell me whats usefull, or not
 
 This TYPO3 Flow Application is stored under /PathTo/MyFlowDirectory/Packages/Application/JPG.Usertest/
 
-/PathTo/MyFlowDirectory/Configuration/Settings.yaml
--------------------
+## Configuration ##
+
+### Global Settings ###
+**/PathTo/MyFlowDirectory/Configuration/Settings.yaml**
 ```yaml
 #                                                                        #
 # Configuration for the TYPO3 Flow Framework                             #
@@ -40,4 +41,8 @@ TYPO3:
 		  
 ```
 
-- Formatting hints: https://help.github.com/articles/github-flavored-markdown
+## Links ##
+### readme.md ###
+- https://help.github.com/articles/github-flavored-markdown
+- http://lifehacker.com/5983680/how-the-heck-do-i-use-github
+- http://stackoverflow.com/questions/8655937/github-readme-and-readme-md
