@@ -6,7 +6,8 @@ First steps on my way creating a TYPO3 Flow Tutorial
 This project is stored under /FlowDirectory/Packages/Application/JPG.Usertest
 
 Configuration/Settings.yaml
----------------------------
+-------------------
+```yaml
 #                                                                        #
 # Configuration for the TYPO3 Flow Framework                             #
 #                                                                        #
@@ -35,3 +36,4 @@ TYPO3:
         fileSystem:
           mirrorMode: copy
 		  
+```
