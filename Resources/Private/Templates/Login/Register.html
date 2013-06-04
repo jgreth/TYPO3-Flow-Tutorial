@@ -1,0 +1,15 @@
+<f:layout name="Default" />
+
+<f:section name="Title"><h1>FLOW  - Registration</h1></f:section>
+
+<f:section name="Content">
+    <f:flashMessages />
+
+    <f:form action="create" controller="Login" method="post" name="loginform">
+        <label>User:</label><f:form.textfield name="name" />
+        <label>Pass:</label><f:form.password name="pass" />
+        <label>Pass repeat:</label><f:form.password name="pass2" />
+        <f:form.submit value="Login" />
+    </f:form>
+
+</f:section>

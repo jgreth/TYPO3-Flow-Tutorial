@@ -1,0 +1,24 @@
+<f:layout name="Default" />
+
+<f:section name="Title"><h1>FLOW - Login</h1></f:section>
+
+<f:section name="Content">
+    <f:flashMessages />
+
+    <f:security.ifHasRole role="Visitor">
+        <f:then>
+            <p>You now have the role "Visitor"</p><br>
+            <f:link.action action="logout" controller="Login">Logout</f:link.action>
+        </f:then>
+        <f:else>
+            <f:form action="authenticate" method="post" name="loginform">
+                <label>User:</label><f:form.textfield id="username" name="__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][username]" tabindex="1" />
+                <label>Pass:</label><f:form.password id="password" name="__authentication[TYPO3][Flow][Security][Authentication][Token][UsernamePassword][password]" tabindex="2" />
+                <f:form.submit value="Login" tabindex="3"/>
+            </f:form>
+            Not yet an account? <f:link.action action="register" controller="Login">Register here!!</f:link.action>
+        </f:else>
+    </f:security.ifHasRole>
+
+
+</f:section>
